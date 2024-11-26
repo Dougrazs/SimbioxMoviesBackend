@@ -1,0 +1,5 @@
+{
+  "appService.showBuildDuringDeployPrompt": false,
+  "appService.defaultWebAppToDeploy": "/subscriptions/396199ea-4aaf-4e9f-8db3-5c8bd7b044a8/resourceGroups/Teste/providers/Microsoft.Web/sites/SimbioxBackend",
+  "appService.deploySubpath": "."
+}
