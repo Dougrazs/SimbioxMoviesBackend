@@ -1,7 +1,8 @@
 import cors from 'cors'
+import config from './envConfig'
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: config.BASEURL,
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }
