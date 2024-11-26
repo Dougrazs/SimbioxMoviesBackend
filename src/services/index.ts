@@ -1,0 +1,5 @@
+export { loginLink } from './authService'
+export { getPopularMovies, searchMovies, getMovieDetails } from './moviesService'
+export { sendEmail } from './emailService'
+export { createNewUser, deleteUser, updateUser } from './userService'
+export { removeMovieFromFavorites, addMovieToFavorites, getFavoriteMovies } from './userMovieService'

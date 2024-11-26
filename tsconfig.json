@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ES2023"
+    ],
+    "outDir": "./dist",
+    "module": "node16",
+    "target": "ES2022",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "strictNullChecks": true
+  }
+}
