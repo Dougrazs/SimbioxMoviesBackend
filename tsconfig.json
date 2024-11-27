@@ -8,7 +8,12 @@
     "target": "ES2022",
     "esModuleInterop": true,
     "allowJs": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "types": [
+      "node"
+    ], // Explicitly include Node types
+    "skipLibCheck": true, // Optional, to skip type checking of libraries
+    "moduleResolution": "node" // Ensure Node.js-style module resolution
   },
   "include": [
     "src/**/*"
