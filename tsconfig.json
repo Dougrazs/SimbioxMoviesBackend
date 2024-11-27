@@ -6,8 +6,7 @@
     "target": "ES2022",
     "esModuleInterop": true,
     "allowJs": true,
-    "strictNullChecks": true,
-    "types": ["node"],        
+    "strictNullChecks": true,  
     "skipLibCheck": true,
     "moduleResolution": "Node16"
   },
