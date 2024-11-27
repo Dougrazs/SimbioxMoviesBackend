@@ -7,7 +7,7 @@
     "test": "jest --passWithNoTests --watch",
     "test:staged": "jest --passWithNoTests",
     "dev": "tsx watch src/app.ts",
-    "clean": "rm -rf dist",
+    "clean": "rmdir /s /q dist",
     "build": "npm run clean && tsc",
     "start": "node dist/app.js"
   },
