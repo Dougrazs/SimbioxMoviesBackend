@@ -4,7 +4,7 @@ import config from '../config/envConfig'
 export const setAuthCookie = (token: string, res: Response): void => {
   res.cookie('auth_token_simbiox', token, {
     httpOnly: true,
-    secure: config.NODEENV === 'production',
+    secure: true,
     maxAge: 3600000,
     sameSite: 'none',
     path: '/'
