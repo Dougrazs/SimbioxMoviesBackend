@@ -1,18 +1,15 @@
 {
   "compilerOptions": {
-    "lib": [
-      "ES2023"
-    ],
+    "lib": ["ES2023"],
     "outDir": "./dist",
-    "module": "node16",
+    "module": "Node16",
     "target": "ES2022",
     "esModuleInterop": true,
     "allowJs": true,
     "strictNullChecks": true,
-    "types": [
-      "node"
-    ],
-    "skipLibCheck": true
+    "types": ["node"],        
+    "skipLibCheck": true,
+    "moduleResolution": "Node16"
   },
   "include": [
     "src/**/*"
