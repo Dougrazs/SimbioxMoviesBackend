@@ -6,7 +6,7 @@ export const setAuthCookie = (token: string, res: Response): void => {
     httpOnly: true,
     secure: config.NODEENV === 'production',
     maxAge: 3600000,
-    sameSite: config.NODEENV === 'production' ? 'none' : 'lax',
+    sameSite: 'none',
     path: '/'
   })
 }
